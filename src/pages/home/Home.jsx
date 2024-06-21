@@ -33,7 +33,7 @@ const Home = () => {
                     <p className='-mt-1 text-[#BDBDBD] text-[0px] md:text-[24px]'>1</p>
                     <p className='mx-10 -mt-6 text-[#BDBDBD] text-[0px] md:text-[24px] md:mx-24 md:-mt-[4.2rem]'>02</p>
                     <Link to='/projects'>
-                        <button className='flex p-1 bg-white text-[#333333] text-[8px] text-center leading- [22px] mt-7 md:text-[12px] md:flex md:px-16 md:p-4 md:mt-[5.7rem] md:absolute md:left-[22.9rem] md:z-40'>VIEWPROJECT<span><img src={arrowRight} className='size-2 mt-[0. 35rem] md:size-4 md:mt-0 md:ml-3' alt="" /></span></button>
+                        <button className='flex p-1 bg-white text-[#333333] text-[8px] text-center leading- [22px] mt-7 md:text-[12px] md:flex md:px-16 md:p-4 md:mt-[5.7rem] md:absolute md:left-[22.9rem] md:z-40'>VIEWPROJECT<span><img src={arrowRight} className='size-2 mt-[0. 20rem] md:size-4 md:mt-0 md:ml-3' alt="" /></span></button>
                     </Link>
                 </div>
                 <div className='mt-6 mb-5 md:relative'>
