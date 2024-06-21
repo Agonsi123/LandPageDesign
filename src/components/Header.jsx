@@ -13,7 +13,7 @@ const Header = () => {
                     <img src={image12} alt="" />
                 </div>
                 <div className='md:static absolute md:min-h-fit min-h-[20vh] left-4 top-[8%] ml-20 mt-[-4.4rem] md:mt-2 md:w-auto flex items-center px-5 '>
-                    <ul className='flex md:flex-row md:items-center md:gap-[10.8vw] gap-4'>
+                    <ul className='flex md:flex-row md:items-center md:gap-[14.8vw] gap-4'>
                             <li className='hover:text-blue-500 text-[8px] md:text-[12px]'>
                                 <NavLink to="/">
                                     MAIN
