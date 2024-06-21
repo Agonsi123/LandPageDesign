@@ -1,5 +1,8 @@
 ul li a.active {
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc;
-    padding-bottom: 4px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
