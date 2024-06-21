@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Main = () => {
+const Home = () => {
   return (
       <div className='m-0 p-0 font-[Roboto]'>
         <section className='-mt-28 text-justify mb-12 md:mx-10 md:mt-8'>
@@ -87,7 +87,9 @@ const Main = () => {
                 <img src={image8} className='mb-5' alt="" />
                 <img src={image9} className='mb-5' alt="" />
             </div>
-            <button className='flex  px-12 p-4 bg-gray-600 text-white text-[8px] text-center leading-[22px] md:absolute md:-right-10 md:mt-2'>ALL PROJECTS <span><img src={arrowRight} className='ml-3' alt="" /></span></button>
+            <Link to='/projects'>
+              <button className='flex  px-12 p-4 bg-gray-600 text-white text-[8px] text-center leading-[22px] md:absolute md:-right-10 md:mt-2'>ALL PROJECTS <span><img src={arrowRight} className='ml-3' alt="" /></span></button>
+            </Link>
         </section>
         <section className='mt-8 text-justify mb-12 md:mt-20 md:mx-10 md:h-[603px]'>
             <h1 className='text-[#BDBDBD] leading-[36px] text-[32px] font-[300] text-left -mt-5 md:text-[64px] md:mt-36'>Contact Us</h1>
@@ -110,4 +112,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home
