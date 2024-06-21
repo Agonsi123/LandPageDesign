@@ -88,7 +88,7 @@ const Home = () => {
                 <img src={image9} className='mb-5' alt="" />
             </div>
             <Link to='/projects'>
-              <button className='flex  px-12 p-4 bg-gray-600 text-white text-[8px] text-center leading-[22px] md:absolute md:-right-10 md:mt-2'>ALL PROJECTS <span><img src={arrowRight} className='ml-3' alt="" /></span></button>
+                <button className='flex  px-12 p-4 bg-gray-600 text-white text-[8px] text-center leading-[22px] md:absolute md:-right-10 md:mt-2'>ALL PROJECTS <span><img src={arrowRight} className='ml-3' alt="" /></span></button>
             </Link>
         </section>
         <section className='mt-8 text-justify mb-12 md:mt-20 md:mx-10 md:h-[603px]'>
